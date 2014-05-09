@@ -30,7 +30,7 @@ public class Filosofo extends Thread {
         try{
             //mosttramos por pantalla el/los filosofos que se encuentra pensando
             System.out.println("Filosofo "+identificativo+" pensando...");
-
+            System.out.println ("Esto es una prueba");
             this.sleep(10000); //para que el theard tenga un intervalo de 10 segundos
             hambriento = true; //variable que se sirve para que tiene hambre
             quiereComer = true; //variable que sirve para constar que quiere comer
